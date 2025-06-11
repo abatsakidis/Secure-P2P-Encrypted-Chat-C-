@@ -1,0 +1,31 @@
+name: .NET Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '7.0.x'  # ή όποια έκδοση χρησιμοποιείς
+
+    - name: Restore dependencies
+      run: dotnet restore CryptοNexus.sln
+
+    - name: Build
+      run: dotnet build CryptοNexus.sln --configuration Release --no-restore
+
+    - name: Run tests
+      run: dotnet test CryptοNexus.sln --no-build --verbosity normal
+      continue-on-error: true  # αν δεν έχεις τεστ, μπορείς να αφαιρέσεις αυτό το βήμα
