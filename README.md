@@ -1,9 +1,6 @@
 # Secure P2P Encrypted Chat (C#)
 
 ![.NET Build](https://github.com/abatsakidis/Secure-P2P-Encrypted-Chat-C-/actions/workflows/dotnet.yml/badge.svg)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/abatsakidis/Secure-P2P-Encrypted-Chat-C-?style=flat)
-![.NET Build](https://github.com/abatsakidis/Secure-P2P-Encrypted-Chat-C-/actions/workflows/dotnet.yml/badge.svg)
-
 
 A simple peer-to-peer (P2P) encrypted chat application implemented in C#, featuring PGP public key exchange and AES session key encryption with key rotation support. This project demonstrates fundamental cryptographic concepts in a practical chat scenario.
 
