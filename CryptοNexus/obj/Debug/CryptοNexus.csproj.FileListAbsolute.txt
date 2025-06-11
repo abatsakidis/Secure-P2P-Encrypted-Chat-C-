@@ -1,0 +1,9 @@
+C:\Users\mantis\source\repos\CryptοNexus\CryptοNexus\obj\Debug\CryptοNexus.csproj.AssemblyReference.cache
+C:\Users\mantis\source\repos\CryptοNexus\CryptοNexus\obj\Debug\CryptοNexus.csproj.CoreCompileInputs.cache
+C:\Users\mantis\source\repos\CryptοNexus\CryptοNexus\bin\Debug\CryptοNexus.exe.config
+C:\Users\mantis\source\repos\CryptοNexus\CryptοNexus\bin\Debug\CryptοNexus.exe
+C:\Users\mantis\source\repos\CryptοNexus\CryptοNexus\bin\Debug\CryptοNexus.pdb
+C:\Users\mantis\source\repos\CryptοNexus\CryptοNexus\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\mantis\source\repos\CryptοNexus\CryptοNexus\obj\Debug\Crypt_Ne.FD6C92D8.Up2Date
+C:\Users\mantis\source\repos\CryptοNexus\CryptοNexus\obj\Debug\CryptοNexus.exe
+C:\Users\mantis\source\repos\CryptοNexus\CryptοNexus\obj\Debug\CryptοNexus.pdb
